@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two&display=swap');
+body{
+    background-image: url("../images/back.jpg");
+    background-size: 100%; 
+font-family:'Lobster Two', cursive; }
+
+.picUni-image {
+    width: 120px;
+    height: 130px;
+  }
+
+p{
+    font-family:'Lobster Two', cursive; 
+    color: rgb(217, 255, 0); 
+    font-size: 20px; 
+}
+h1 {
+    font-family:'Lobster Two', cursive; 
+    color: aqua; 
+    font-size: 40px; 
+}
+h2 {
+    font-family:'Lobster Two', cursive; 
+    color: rgb(188, 252, 39); 
+    font-size: 30px; 
+}
+h3 {
+    font-family:'Lobster Two', cursive; 
+    color: aqua; 
+    font-size: 20px; 
+}
+
