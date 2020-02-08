@@ -6,27 +6,34 @@
     <link rel="stylesheet" href="./assets/css/style.css">
   </head>
   <body>
-    <h1>Unicorn Collector magic!</h1>
+    
+<div class="grid-container">
+  <div class="header"><h1>Unicorn Collector magic!</h1>
     <h3>Click the Unicorns (each with hidden numbers) to grow <strong>Your Unicorn Power.</strong> <br> Win the magic by getting the <strong> Your Unicorn Power</strong> the same as the Unicorn Power Goal. </h3> 
-    <h1>Unicorn Power Goal: <span id="number-to-guess"></span></h1>
-    <div class="">
-      <div class="">
-        <div class="">
-          <h2>  <p> Your Unicorn Power: <span id="player-score"></span></p>  </h2>
-          </div>
-      </div>
-      <div id="unicorn">
-      </div>
-      <div class="">
-       <h2> Wins<span id="wins"></span>  </h2>
-      </div>
-      <div class="">
-        <h2> losses<span id="losses"></span>  </h2>
-      </div>
-    </div>
+  </div>
+   
+  <div class="left">
+     <h1>Unicorn Power Goal: <span id="number-to-guess"></span></h1> 
+  </div>  
+  
+  <div class="middle">
+      <p> <h2> Your Unicorn Power: <span id="player-score"></h2></span></p>  
+     <div id="unicorn"></div>
+  </div>
+  
+ <div class="right">
+   <h2> Wins<span id="wins"></span>  </h2> <br> <h2> losses<span id="losses"></span>  </h2>
     <div id="unicorn">
     </div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </div>
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="./assets/javascript/script.js"></script>
+  
+ <div class="footer">
+  <p> Created by the magic of EmDBad 	&copy; Feb 2020</p>
+  </div>
+</div>
+  
   </body>
 </html>
