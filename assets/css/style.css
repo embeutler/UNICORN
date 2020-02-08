@@ -7,7 +7,7 @@ font-family:'Lobster Two', cursive; }
 .picUni-image {
     width: 120px;
     height: 130px;
-  }
+}
 .header {
   grid-area: header;
   background-color: purple ;
@@ -54,8 +54,7 @@ font-family:'Lobster Two', cursive; }
   background-repeat: no-repeat;}  
 
 /* Style the footer */
-.footer {
-  grid-area: footer;
+footer {
   background-color: purple;
   padding: 10px;
   text-align: center;
@@ -83,13 +82,13 @@ h1 {
     color: aqua; 
     font-size: 40px; 
 }
-h2 {
-    font-family: Arial, Helvetica, sans-serif;; 
+h2 { font-family:'Lobster Two', cursive; 
     color: rgb(188, 252, 39); 
     font-size: 30px; 
 }
 h3 {
-    font-family:'Lobster Two', cursive; 
+    
+    font-family: Arial, Helvetica, sans-serif;
     color: aqua; 
     font-size: 20px; 
 }
