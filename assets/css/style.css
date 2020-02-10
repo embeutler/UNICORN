@@ -4,37 +4,23 @@ body{
     background-size: 100%; 
 font-family:'Lobster Two', cursive; }
 
-.corni-image {
-    width: 155px;
-    height: 155px;
-}
 .header {
   grid-area: header;
   background-color: black ;
   padding: 20px;
   text-align: center;
 }
+h1 {
+    font-family:'Lobster Two', cursive; 
+    color: aqua; 
+    font-size: 40px; 
+    background-color: purple;}
 h3 {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(188, 252, 39);  
     font-size: 20px; 
 }
 
-p{
-    font-family:'Lobster Two', cursive; 
-    color: rgb(217, 255, 0); 
-    font-size: 20px; 
-}
-h1 {
-    font-family:'Lobster Two', cursive; 
-    color: aqua; 
-    font-size: 40px; 
-    background-color: purple;
-}
-h2 { font-family:'Lobster Two', cursive; 
-    color: rgb(188, 252, 39); 
-    font-size: 40px; 
-}
 
 .grid-container {
   display: grid;
@@ -52,6 +38,16 @@ h2 { font-family:'Lobster Two', cursive;
   padding: 10px;
 }
 
+p{
+    font-family:'Lobster Two', cursive; 
+    color: rgb(217, 255, 0); 
+    font-size: 20px; 
+}
+
+h2 { font-family:'Lobster Two', cursive; 
+    color: rgb(188, 252, 39); 
+    font-size: 40px; 
+}
 /* Style the left column */
 .left {
   grid-area: left;}
@@ -59,12 +55,14 @@ h2 { font-family:'Lobster Two', cursive;
 /* Style the middle column */
 .middle {
     grid-area: middle;}
-  
-    /* style the right*/
+.corni-image {
+    width: 155px;
+    height: 155px;
+}
+/* style the right*/
   .right{ 
   grid-area: right;     
   }  
-
 /* Style the footer */
 .footer {
   background-color: purple;
