@@ -5,8 +5,8 @@ body{
 font-family:'Lobster Two', cursive; }
 
 .corni-image {
-    width: 85px;
-    height: 85px;
+    width: 155px;
+    height: 155px;
 }
 .header {
   grid-area: header;
