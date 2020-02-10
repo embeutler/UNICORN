@@ -67,13 +67,13 @@ $(".corni-image").on("click", function() {
 
   if (total === numGoal) {
     wins++
-    $('#wins').text(": " + wins)
+    $('#wins').text(" " + wins)
     magic.reset()
   }
 
   else if (total >= numGoal) {
     losses++
-    $('#losses').text(": " + losses)
+    $('#losses').text(" " + losses)
     magic.reset()
   }
 
