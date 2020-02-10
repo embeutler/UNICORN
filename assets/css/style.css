@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster+Two&display=swap');
 body{
-    background-image: url("../images/back.jpg");
+    background-image: url("../images/glaxbg1.jpg");
     background-size: 100%; 
 font-family:'Lobster Two', cursive; }
 
@@ -36,20 +36,18 @@ font-family:'Lobster Two', cursive; }
 /* Style the left column */
 .left {
   grid-area: left;
-  background-image: url("../images/back.jpg");
+  background-image: url("../images/backq.jpg");
   background-size: 100%;
   background-repeat: no-repeat;}
 
 /* Style the middle column */
 .middle {
   grid-area: middle;
-  background-image: url("../images/back.jpg");
-  background-size: 100%;
-  background-repeat: no-repeat;}
-
-/* Style the right 
+  
+    /* style the right*/
+  .right{ 
   grid-area: right;     
-  background-image: url("../images/back.jpg");
+  background-image: url("../images/backq.jpg");
   background-size: 100%; 
   background-repeat: no-repeat;}  
 
