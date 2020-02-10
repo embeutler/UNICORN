@@ -57,29 +57,23 @@ h3 {
 .middle,
 .right {
   padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
 }
 
 /* Style the left column */
 .left {
-  grid-area: left;
-  background-image: url("../images/backq.jpg");
-  background-size: 100%;
-  background-repeat: no-repeat;}
+  grid-area: left;}
 
 /* Style the middle column */
 .middle {
-  grid-area: middle;
+    grid-area: middle;}
   
     /* style the right*/
   .right{ 
   grid-area: right;     
-  background-image: url("../images/backq.jpg");
-  background-size: 100%; 
-  background-repeat: no-repeat;}  
+  }  
 
 /* Style the footer */
-footer {
+.footer {
   background-color: purple;
   padding: 10px;
   text-align: center;
