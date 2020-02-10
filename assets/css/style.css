@@ -47,6 +47,7 @@ p{
 h2 { font-family:'Lobster Two', cursive; 
     color: rgb(188, 252, 39); 
     font-size: 40px; 
+    background-color: black;
 }
 /* Style the left column */
 .left {
