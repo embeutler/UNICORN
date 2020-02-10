@@ -46,7 +46,7 @@ function magicHappens () {
     picUni.addClass("corni-image");
 
     
-    picUni.attr("src", "./assets/images/backq.jpg")
+    picUni.attr("src", "./assets/images/backq.png")
 
     picUni.attr("data-unicornvalue", magicNum[i]);
     $("#unicorn").append(picUni);
